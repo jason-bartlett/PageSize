@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="PageSize.widget.PageSize" needsEntityContext="false" 
+    xmlns="http://www.mendix.com/widget/1.0/">
+    <name>PageSize</name>
+    <description>The description of this widget.</description>
+    <icon />
+    <properties>
+        <property key="targetGridName" type="string" required="true">
+            <caption>Grid name</caption>
+            <category>General</category>
+            <description></description>
+        </property>
+        <property key="sortOptions" type="object" isList="true" required="true">
+            <caption>Sort options</caption>
+            <category>General</category>
+            <description></description>
+            <properties>
+                <!-- Define the sub-properties here -->
+                <property key="numbRows" type="integer" required="true" defaultValue="10">
+                    <caption>Number rows</caption>
+                    <category>General</category>
+                    <description></description>
+                </property>
+                <property key="caption" type="string" required="false">
+                    <caption>Caption</caption>
+                    <category>General</category>
+                    <description></description>
+                </property>
+                <property key="isDefault" type="boolean" required="true" defaultValue="false">
+                    <caption>Default</caption>
+                    <category>General</category>
+                    <description></description>
+                </property>
+            </properties>
+        </property>
+    </properties>
+</widget>

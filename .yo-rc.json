@@ -1,0 +1,11 @@
+{
+  "generator-mendix": {
+    "promptValues": {
+      "copyright": "n",
+      "license": "Apache 2",
+      "author": "Jason Bartlett",
+      "boilerplate": "empty",
+      "widgetoptions": []
+    }
+  }
+}
